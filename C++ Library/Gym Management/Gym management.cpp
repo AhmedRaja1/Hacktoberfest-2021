@@ -2,13 +2,12 @@
 using namespace std;
 int main()
 {
-	while(true)
+	while(1)
 	{
-	int choice ;
-	int month ;
-	int bill ;
+	int choice ,month ,bill ;
 		
 	cout<<"*************************************"<<endl;
+		cout<<"Choose one option from the following"<<endl;
 	cout<<"\t\tGym Management System"<<endl;
 	cout<<"Press 1 for students."<<endl;
 	cout<<"Press 2 for Businessman."<<endl;
