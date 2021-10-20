@@ -3,7 +3,8 @@ using namespace std;
 struct COURSE
 {
     string title;
-    int code,credithrs;
+    int code;
+    int credithrs;
     double gradepoints;
 
 void init(string ti, int cd, int chr, double gp)
@@ -11,6 +12,8 @@ void init(string ti, int cd, int chr, double gp)
     title = ti;
     code = cd;
     credithrs = chr;
+
+
 }
 void printcourseinfo()
 {
@@ -21,7 +24,10 @@ struct STUDENT
 {
     string name;
     int id;
-    double cgpa,finalgpa,fgpa,tgp=0;
+    double cgpa;
+    double finalgpa;
+    double fgpa;
+    double tgp=0;
     COURSE mycourses[9];
 void init(string namee, int idn )
 {
@@ -42,11 +48,12 @@ void calculatecgpa()
      fgpa = (cgpa + finalgpa)/2;
 
 }
+
 void printstudentinfo()
 {
-    cout<<"\nName : "<<name<<"\t\tId Number : "<<id<<"\t\tGPA : "<<cgpa<<"\t\tCGPA : "<<fgpa<<"\t\tTotal Grade Points : "<<tgp<<endl;
+    cout<<"\nName : "<<name<<"\t\tId Num : "<<id<<"\t\tGPA : "<<cgpa<<"\t\tCGPA : "<<fgpa<<"\t\tTotal Grade Points : "<<tgp<<endl;
     cout<<"\nTitle\t\tCode\t\tCredit Hours\t\tGrade Points"<<endl;
-    for(int i = 0; i<9; i++)
+    for(int i =0; i<9; i++)
     {
         mycourses[i].printcourseinfo();
     }
