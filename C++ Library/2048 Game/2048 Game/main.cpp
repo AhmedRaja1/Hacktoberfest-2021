@@ -47,7 +47,8 @@ void printUI (){
         cout << "\n";
     }
 
-    cout<<" n: new game, w: up, s: down, a: left, d: right, q: quit \n";
+     cout<<"Input the following commands to proceed accordingly\n";
+    cout<<" n: New Game, w: up, s: down, a: left, d: right, q: quit \n";
     cout<<" Developed Mian Inshaullah Zia \n" ;
     cout<<" \n";
     }
@@ -85,13 +86,7 @@ void applymove( int direction) {
 
     if(canaddpiece)
         addpiece();
-
-
-
 }
-
-
-
 int main()
 {
     srand(time(0));
@@ -113,8 +108,6 @@ int main()
                 int currentDirection = commandtodir[command];
                 applymove(currentDirection);
             }
-
         }
-
    return 0;
 }
