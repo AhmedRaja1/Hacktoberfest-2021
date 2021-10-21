@@ -1,0 +1,62 @@
+<DOCTYPE!>
+<html>
+
+<head>
+<title>BIODATA FORM</title>    
+   
+   
+    </head>
+
+<body text="aqua">
+    <div align="center">
+        <h1 style="color: red">BIO DATA</h1>
+
+<form text="orange">
+   
+    <span>NAME:</span><input type="text" id="name"><br><br>
+    <span>REG#NO:</span><input type="REG#NO" id="REG#NO"><br><br>
+    <span>USERNAME:</span><input type="USERNAME" id="USERNAME"><br><br>
+    <span>PASSWORD:</span><input type="PASSWORD" id="PASSWORD"><br><br>
+    <span>GENDER:</span><select id="GENDER"><option value="MALE">MALE</option>
+    <option value="FEMALE">FEMALE</option>
+   
+    </select><br><br>
+   
+   
+    <label style="color: blue"><strong><h3>COURSE:</h3></strong></label><br><br><span style="color: black">COMPUTER FUNDAMENTAL</span>
+    <input type="checkbox" NAME="field"><br>
+    <br /><span style="color: black">COMPUTER PROGRAMMING</span><input type="checkbox" name="field"><br><br>
+    <pr style="color: black">OTHERS <input type="radio" id="radiobtn"></pr>
+   <br><br>
+    <input type="button" value="CLICK HERE TO SUNMIT IT" onclick="BIODATA()">
+        </form>
+        <hr >
+        <script>
+           
+           
+            function biodata(){
+             var name,RegNO,username,gender;
+                name=document.getelementByid("NAME").value;
+                REGNo=DOCUMENT.getElementById("REG#NO").value;
+                USERNAME=DOCUMENT.getElementById("USERNAME").value;
+                GENDER=DOCUMENT.getElementById("GENDER").value;
+               
+               
+               
+                DOCUMENT.getElementById("NAMEelement").innerHTML=name;
+                DOCUMENT.getElementById("REG#NOelement").innerHTML=REGNO;
+                DOCUMENT.getElementById("USERNAMEELEMENT").innerHTML=USERNAME;
+                DOCUMENT.getElementById("GENDERELEMENT").innerHTML=GENDER;}
+           
+        </script>
+        <font color="orange"><h3 id="nameElement"></h3>
+                                 </font><br>
+       
+       
+        <font color="blue"><h3 id="REG#NOElement"></h3> </font><br>
+        <font color="red"><h3 id="USERNAMEELEMENT"></h3> </font><br>
+        <font color="yellow"><h3 id="GENDERELEMENT"></h3> </font><br>
+    </div>
+    </body>
+      
+</html>
