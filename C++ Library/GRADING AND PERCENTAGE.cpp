@@ -24,27 +24,27 @@ float grade(int marks)
 char grade(float percentage)
 {
     char grade1;
-    if(percentage<=100&&percentage>=90)
+    if(percentage<=100 && percentage>=90)
     {
         return 'A';
     }
-    else if(percentage<90&&percentage>=80)
+    else if(percentage<90 && percentage>=80)
     {
     	return 'B';
     }
-    else if(percentage<80&&percentage>=70)
+    else if(percentage<80 && percentage>=70)
     {
         return 'C';
     }
-    else if(percentage<70&&percentage>=60)
+    else if(percentage<70 && percentage>=60)
     {
         return 'D';
     }
-    else if(percentage<60&&percentage>=50)
+    else if(percentage<60 && percentage>=50)
     {
         return 'E';
     }
-    else if(percentage<50)
+    else 
     	return 'F';
 }
 
