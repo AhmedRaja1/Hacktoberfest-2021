@@ -47,8 +47,7 @@ main()
 	case '/':
 	    cout<<"Result is : "<<master(x,y, div);
 		break;
-		default:
-		cout<<"Wrong operator entered";
+
 	}
 }
 
