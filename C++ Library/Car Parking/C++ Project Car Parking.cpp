@@ -8,6 +8,7 @@ int main()
 	
 	while(true)
 	{
+		cout<<"Choose one option fromt he following"<<endl;
 	cout<<"1) Rickshaw. "<<endl;
 	cout<<"2) Car. "<<endl;
 	cout<<"3) Bus. "<<endl;
@@ -57,13 +58,11 @@ int main()
 	}
 	else if(u_input == 4)
 	{
-		cout<<"*************************************"<<endl;
 		cout<<"Total Amount = "<<amount<<endl;
 		cout<<"Total numberc of vehicles = "<<count<<endl;
 		cout<<"Total number of rikshaws parked = "<<r<<endl;
 		cout<<"Total number of cars parked = "<<c<<endl;
 		cout<<"Total number of parked Buses = "<<b<<endl;
-		cout<<"*************************************"<<endl;
 	}
 	else if(u_input == 5)
 	{
@@ -73,13 +72,13 @@ int main()
 		c= 0 ;
 		b = 0 ;
 		cout<<"*************************************"<<endl;
-		cout<<"Record Deleted."<<endl;
+		cout<<"\a\aRecord Deleted.\a\a"<<endl;
 		cout<<"*************************************"<<endl;
 	}
 	else
 	{
 		cout<<"*************************************"<<endl;
-		cout<<"Invalid number."<<endl;
+		cout<<"\a\aInvalid number.\a\a"<<endl;
 		cout<<"*************************************"<<endl;
 	}
 	}

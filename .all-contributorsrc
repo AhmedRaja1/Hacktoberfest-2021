@@ -556,10 +556,19 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "hammad1201",
+      "name": "Muhammad Hammad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39094000?v=4",
+      "profile": "https://github.com/hammad1201",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Hacktoberfest",
+  "projectName": "Hacktoberfest-2021",
   "projectOwner": "AhmedRaja1",
   "repoType": "github",
   "repoHost": "https://github.com",

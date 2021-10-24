@@ -1,10 +1,13 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 
 void merge(vector<int> &array, int left, int mid, int right){
+
 	vector<int> temp;
 	int i = left, j = mid + 1;
-	while(i <= mid && j <= right) {
+	
+	while((i <= mid) && (j <= right)) {
 		if(array[i] < array[j])
 			temp.push_back(array[i++]);
 		else 

@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 0.5;
+	background: grey;
+}
+.calci{
+	width: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	transition: 0.25px;
+	text-align: center;
+}
+#display{
+	border: none;
+	background: white;
+	border-radius: 25px;
+	width: 230px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 300;
+	height: 60px;
+	margin: auto;
+	border: 2px grey;
+	color: black;
+}
+.btnDesign{
+	width: 55px;
+	height: 55px;
+	background: white;
+	padding-top: -1;
+	border: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 300;
+	border-radius: 25px;
+	margin: 1.5;
+}
+.btnDesign:hover{
+	background: #00d9ff;
+}
+.operatorDesign{
+	width: 55px;
+	height: 55px;
+	background: white;
+	padding-top: -1;
+	border: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 300;
+	border-radius: 25px;
+	margin: 1.5;
+	transition: 0.25px;
+	cursor: pointer;
+}
+.operatorDesign:hover{
+	background: #00d9ff;
+}
+#zero{
+	width: 120px;
+	height: 55px;
+	background: white;
+	padding-top: -1;
+	border: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 300;
+	border-radius: 25px;
+	margin: 1.5;
+	transition: 0.25px;
+	cursor: pointer;
+}
+#zero:hover{
+	background: #00d9ff;
+}
+h1{
+	color: white;
+	margin-top: 300px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 700px;
+	text-decoration: bold;
+	font-size: 50px;
+}
+h2{
+	color: white;
+	margin-top: -1px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 500px;
+	text-decoration: bold;
+	font-size: 30px;
+}

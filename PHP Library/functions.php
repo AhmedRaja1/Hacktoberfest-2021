@@ -1,10 +1,6 @@
 <?php
-/*
-* PHP Functioins
-*/
 
 function site_title($custom="") {
-
     if($custom == "") {
         echo "Upload Files Tutorial";
     } else {
@@ -13,6 +9,7 @@ function site_title($custom="") {
    
 }
 function site_url() {
+    //currently working on local-host
     echo "http://localhost/php-tutorial/";
 }
 ?>
