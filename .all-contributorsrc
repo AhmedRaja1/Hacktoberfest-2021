@@ -565,6 +565,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "FreSauce",
+      "name": "Shardul Kurdukar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34598383?v=4",
+      "profile": "https://github.com/FreSauce",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
