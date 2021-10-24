@@ -64,7 +64,7 @@ cout << "					The Cost for Food is: " << setw(5) << TotalFoodCost << endl;
 cout << "					Avergae Cost Per Person: " << setw(5) << AverageCost << endl;
 cout << "\n					Total cost is: " << setw(5) << TotalCost << endl;
 
-cout << "					Please deposite 25% to reserve the event" << endl;
+cout << "\n					Please deposite 25% to reserve the event" << endl;
 cout << "					The deposit needed is: " << setw(5) << DepositAmount << endl;
 
 return 0;
