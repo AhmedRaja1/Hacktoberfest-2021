@@ -2,7 +2,7 @@
 # Hacktoberfest
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-63-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-64-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Code For Good](https://raw.githubusercontent.com/AhmedRaja1/Hacktoberfest/main/Creative%20Graphic%20Design%20Content/code-for-good.png)
@@ -96,6 +96,9 @@
     <td align="center"><a href="https://www.linkedin.com/in/elishahyousaf/"><img src="https://avatars.githubusercontent.com/u/65106812?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elishah Yousaf</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=elishahyousaf" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hammad1201"><img src="https://avatars.githubusercontent.com/u/39094000?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Hammad</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=hammad1201" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/FreSauce"><img src="https://avatars.githubusercontent.com/u/34598383?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shardul Kurdukar</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=FreSauce" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/munzirkalimahmed"><img src="https://avatars.githubusercontent.com/u/72119116?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Munzir Kalim Ahmed</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=munzirkalimahmed" title="Code">💻</a></td>
   </tr>
 </table>
 
