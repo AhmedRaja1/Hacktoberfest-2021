@@ -556,10 +556,64 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "hammad1201",
+      "name": "Muhammad Hammad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39094000?v=4",
+      "profile": "https://github.com/hammad1201",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "FreSauce",
+      "name": "Shardul Kurdukar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34598383?v=4",
+      "profile": "https://github.com/FreSauce",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "munzirkalimahmed",
+      "name": "Munzir Kalim Ahmed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72119116?v=4",
+      "profile": "https://github.com/munzirkalimahmed",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Takrabal",
+      "name": "Umair Ahmad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91455848?v=4",
+      "profile": "https://github.com/Takrabal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shubhamghimire",
+      "name": "Shubham Ghimire",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8254870?v=4",
+      "profile": "https://github.com/shubhamghimire",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Yashism",
+      "name": "Yash Waghmare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69153292?v=4",
+      "profile": "https://yashw.hashnode.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Hacktoberfest",
+  "projectName": "Hacktoberfest-2021",
   "projectOwner": "AhmedRaja1",
   "repoType": "github",
   "repoHost": "https://github.com",
