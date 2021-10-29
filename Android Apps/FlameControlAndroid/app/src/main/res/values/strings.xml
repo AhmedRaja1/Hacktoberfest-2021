@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flame Control</string>
+    <string name="activity_scan_device">Scanning for devices…</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="preference_about">about</string>
+    <string name="brightness_high">BRIGHTNESS\nHIGH</string>
+    <string name="brightness_medium">BRIGHTNESS\nMEDIUM</string>
+    <string name="brightness_low">BRIGHTNESS\nLOW</string>
+
+</resources>

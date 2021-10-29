@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work Space/Android Studio/Projects/Flame Control/app/src/main/res/layout/activity_main.xml" value="0.14792299898682879" />
+        <entry key="..\:/Work Space/Android Studio/Projects/Flame Control/app/src/main/res/layout/activity_scan_device.xml" value="0.26268115942028986" />
+        <entry key="..\:/Work Space/Android Studio/Projects/Flame Control/app/src/main/res/layout/device_adapter_layout.xml" value="0.25905797101449274" />
+        <entry key="app/src/main/res/drawable/divider.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/layout/about_layout.xml" value="0.3410536284960623" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3325039126012284" />
+        <entry key="app/src/main/res/layout/activity_scan_device.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.10075518674477703" />
+        <entry key="app/src/main/res/layout/device_adapter_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
