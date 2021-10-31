@@ -1,0 +1,88 @@
+# Importing Intialization
+
+import numpy as np 
+
+# Importing qiskit
+
+from qiskit import IBMQ,BasicAer
+from qiskit.providers.ibmq import least_busy
+from qiskit import QuantumCircuit,execute
+
+# Import basic plot tool
+
+from qiskit.visualization import plot_histogram
+
+
+from qiskit import QuantumRegister , ClassicalRegister, QuantumCircuit , execute , Aer
+from random import randrange
+
+qr = QuantumRegister(10)
+cr = ClassicalRegister(10)
+
+mycircuit = QuantumCircuit(qr , cr)
+
+for i in range (10):
+    if randrange(2) ==0:
+        mycircuit.x(qr[i])
+        print("x-gate is applied to the qubit with index",i)
+        
+mycircuit.measure(qr,cr)    
+
+print("Everything looks fine, let's continue ...")
+
+ycircuit.draw(reverse_bits=True)
+
+
+# execute the circuit and read the results
+job = execute(mycircuit,Aer.get_backend('qasm_simulator'),shots=128)
+
+counts = job.result().get_counts(mycircuit)
+        
+print(counts)
+
+# Add Deutsch-Josza Algorithm this is separate code
+
+# Set the size of input register for our oracle
+
+n=3
+
+# Let's start by creating a constant oracle
+
+const_oracle = QuantumCircuit(n+1)
+output = np.random.randint(2)
+if output == 1:
+    const_oracle.x(n)
+ 
+const_oracle.draw()
+
+# lets start creating balanced oracle
+
+balanced_oracle = QuantumCircuit(n+1)
+b_str = "101"
+
+# now place X-Gate
+
+for qubit in range(len(b_str)):
+    if b_str[qubit] == '1':
+        balanced_oracle.x(qubit)
+        
+# Use barrier as divider
+balanced_oracle.barrier()        
+
+#  Controlled - Not Gates
+
+for qubit in range (n):
+    balanced_oracle.cx(qubit,n)
+    
+# Use barrier as divider
+
+balanced_oracle.barrier()  
+
+# now place X-Gate
+
+for qubit in range(len(b_str)):
+    if b_str[qubit] == '1':
+        balanced_oracle.x(qubit)
+
+balanced_oracle.draw()
+
