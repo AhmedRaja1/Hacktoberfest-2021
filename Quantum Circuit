@@ -86,3 +86,46 @@ for qubit in range(len(b_str)):
 
 balanced_oracle.draw()
 
+# Add Balaced Code for Circuit
+
+n=3
+
+dj = QuantumCircuit(n+1,n)
+
+# Applying H-Gates
+
+for qubit in range(n):
+    dj.h(qubit)
+    
+dj.x(n)
+dj.h(n)
+
+dj += balanced_oracle  
+
+# Repeat H-gates
+for qubit in range(n):
+    dj.h(qubit)
+    
+dj.barrier()    
+    
+# Measure
+for i in range(n):
+    dj.measure(i, i)    
+    
+
+dj.draw()
+
+# use local simulator 
+
+backend = BasicAer.get_backend('qasm_simulator')
+shots = 1024
+results = execute(dj , backend=backend , shots=shots).result()
+answer = results.get_counts()
+
+plot_histogram(answer)
+
+# In this file we have three  Quantum circuit 
+#  For Single Qubit
+# For Deutsch-Josza Algorithm
+# For Balanced Deutsch-Josza Algorithm
+
