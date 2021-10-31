@@ -2,7 +2,7 @@
 # Hacktoberfest
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-68-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-69-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Code For Good](https://raw.githubusercontent.com/AhmedRaja1/Hacktoberfest/main/Creative%20Graphic%20Design%20Content/code-for-good.png)
@@ -103,6 +103,7 @@
     <td align="center"><a href="https://github.com/shubhamghimire"><img src="https://avatars.githubusercontent.com/u/8254870?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shubham Ghimire</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=shubhamghimire" title="Code">💻</a></td>
     <td align="center"><a href="https://yashw.hashnode.dev/"><img src="https://avatars.githubusercontent.com/u/69153292?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Waghmare</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=Yashism" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/UmerYasin1"><img src="https://avatars.githubusercontent.com/u/40846948?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Umer Yasin</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=UmerYasin1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/MANISH762000"><img src="https://avatars.githubusercontent.com/u/43494119?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MANISH762000</b></sub></a><br /><a href="https://github.com/AhmedRaja1/Hacktoberfest-2021/commits?author=MANISH762000" title="Code">💻</a></td>
   </tr>
 </table>
 
